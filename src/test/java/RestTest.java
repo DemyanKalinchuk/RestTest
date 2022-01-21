@@ -10,7 +10,7 @@ import static org.hamcrest.Matchers.equalTo;
 public class RestTest {
 
 
-    @Test
+    @Test (groups = {"RestTest"})
     public void receiveData(){
 
         given()
